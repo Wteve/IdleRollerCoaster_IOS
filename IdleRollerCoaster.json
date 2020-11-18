@@ -1,0 +1,170 @@
+{
+    "DefaultValues": {
+
+        "new_balancing": false,
+
+        "GeneralMultiplierBase": 1.475,
+        "TicketValueUp1": 1.5,
+        "TicketValueUp2": 1.6,
+        "MultiplierTicketUp": 1.43,
+        "MultiplierSpeedUp": 1.32,
+        "MultiplierCarsUp": 1.52,
+        "TicketValueUp1_Level": 7,
+        "TicketValueUp2_Level": 16,
+        "First_upgrade_price_ticket": 500,
+        "First_upgrade_price_speed": 500,
+        "First_upgrade_price_cars": 1000,
+        "offline_earnings_cash": 1,
+        "offline_earnings_cap_min": 120,
+
+        "new_UI": false,
+
+        "Levels_XP": 1,
+
+        "interstitialslevelup": true,
+        "interstitialsupgrade": false,
+
+        "interstitials_frequency": 120,
+        "interstitials_first_delay": 120,
+        "interstitials_first_level": 3,
+
+        "rewarded_level_up": true,
+        "rewarded_offline": true,
+        "rewarded_bonus_xp": true,
+        "rewarded_bonus_speed": true,
+        "rewarded_bonus_money": true,
+
+        "bonus_xp_enable": true,
+        "bonus_speed_enable": true,
+        "bonus_money_enable": true,
+
+        "bonus_display_time": 15,
+        "bonus_duration": 20,
+        "bonus_frequency_min": 65,
+        "bonus_frequency_max": 75,
+        "bonus_power": 1,
+
+        "notifications": false,
+
+        "rating_enabled": true,
+        "rating_display_1": 3,
+        "rating_display_2": 5,
+        "rating_display_3": 11,
+        "rating_time_delay": 300,
+        "rating_frequency": 2,
+
+        "dark_pattern_enabled": true,
+
+        "flying_forced": true,
+        "flying_behaviour": "greypattern",
+        "flying_duration": 15,
+        "flying_movement": 1,
+
+        "manager_IAP": false,
+
+        "W1_new_design": false,
+        "world_levels_gap": 20,
+        "new_permanent_bonus": false,
+
+        "rv_for_upgrade": false,
+        "swiping_navigation": false,
+
+        "loading_ads_check": false,
+        "ui_rework_enabled": false,
+        "tutorial_enabled": false,
+
+        "mascot_enabled" : true,
+        "mascot_model": 1,
+        "mascot_frequency": 60,
+        "mascot_money": 0.3,
+
+        "icecream_sc_enabled": true,
+        "icecream_sc_frequency": 60,
+        "icecream_sc_money": 0.4,
+
+        "prestige_design": 1,
+        "prestige_enabled": "false",
+        "prestige_multiplier": 0.6,
+        "prestige_multiplier_rv": 0.8,
+        "prestige_minimum": 30,
+        "prestige_basis": 10000000,
+        "prestige_w2": 1,
+        "prestige_w3": 1.05,
+        "prestige_w4": 1.1,
+        "prestige_w5": 1.15,
+        "prestige_w6": 1.2,
+        "prestige_w7": 1.25,
+        "prestige_w8": 1.3,
+        "prestige_w9": 1.35,
+
+        "saboteur_enabled": true,
+        "saboteur_frequency": 75,
+        "saboteur_level": 5,
+        "saboteur_speed": 5,
+        "saboteur_countdown": 15,
+        "saboteur_slowspeed": 25,
+        "saboteur_slowtime": 90,
+
+        "bonus_greypattern": false,
+
+        "hc_enabled": false,
+        "hc_level": 100,
+        "hc_rewarded": 1,
+        "hc_icecream_fqcy": 100,
+        "hc_icecream_gift": 1,
+
+        "skin_shop_enabled": false,
+        "skin_shop_level": 7,
+        "cart_2_price": 10000,
+        "cart_3_price": 100000,
+        "cart_4_price": 700000,
+        "cart_5_price": 20000000,
+        "cart_6_price": 30,
+        "cart_7_price": 100,
+        "cart_8_price": 500,
+        "cart_9_price": 1000,
+        "cart_10_price": 2000,
+        "rail_2_price": 10000,
+        "rail_3_price": 100000,
+        "rail_4_price": 700000,
+        "rail_5_price": 20000000,
+        "rail_6_price": 30,
+        "rail_7_price": 100,
+        "rail_8_price": 500,
+        "rail_9_price": 1000,
+        "rail_10_price": 2000,
+
+        "rewarded_x3_shown" : false,
+        "interstitialtrackupdate" : false,
+        "permanent_bonus" : true,
+        "permanent_bonus_type" : 1,
+        "permanent_bonus_stack" : false,
+        "permanent_bonus_stack_number" : 5,
+        "permanent_bonus_popup" : false,
+
+		"order_enable": "false",
+		"order_lvl_unlock": "2",
+        "order_bonus_low": "7",
+		"order_bonus_medium": "12",
+		"order_bonus_high": "20",
+		"order_bonus_super": "30",
+		"order_difficulty_low": "0.75",
+		"order_difficulty_medium": "1",
+		"order_difficulty_high": "1.50",
+		"order_difficulty_super": "1.75",  
+
+        "banner_enable" : true,
+
+
+       "AB_test_users": 100
+
+},
+
+    "ABtests": {
+
+        "Ref": {
+            "panel_size": 100
+
+        }
+    }
+}
