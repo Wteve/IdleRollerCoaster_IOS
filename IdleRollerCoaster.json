@@ -57,7 +57,7 @@
 
         "flying_forced": true,
         "flying_behaviour": "greypattern",
-        "flying_duration": 15,
+        "flying_duration": 25,
         "flying_movement": 1,
 
         "manager_IAP": false,
@@ -154,9 +154,10 @@
 		"order_difficulty_super": "1.75",  
 
         "banner_enable" : true,
+        "hw_balancing" : false,
+        "hw_fly" : false,
 
-
-       "AB_test_users": 100
+        "AB_test_users": 100
 
 },
 
@@ -164,7 +165,15 @@
 
         "Ref": {
             "panel_size": 100
+        }
+        "A": {
+            "panel_size": 100,
+            "hw_balancing": true
+        }
 
+        "B": {
+            "panel_size": 100,
+            "hw_fly": true
         }
     }
 }
