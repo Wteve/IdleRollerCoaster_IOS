@@ -44,7 +44,7 @@
 		"bonus_frequency_max": 75,
 		"bonus_power": 1,
 
-		"notifications": true,
+		"notifications": false,
 
 		"rating_enabled": true,
 		"rating_display_1": 3,
@@ -156,8 +156,6 @@
 		"banner_enable": true,
 		"hw_balancing": false,
 		"hw_fly": false,
-		"hw_free_upgrade": false,
-		"hw_tutorial": false,
 
 		"AB_test_users": 100
 
@@ -170,13 +168,11 @@
 		},
 		"A": {
 			"panel_size": 100,
-			"hw_balancing": true,
-			"hw_free_upgrade": true
+			"hw_balancing": true
 		},
 		"B": {
 			"panel_size": 100,
-			"hw_fly": true,
-			"hw_tutorial": true
+			"hw_fly": true
 		}
 	}
 }
