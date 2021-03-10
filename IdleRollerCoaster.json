@@ -44,12 +44,12 @@
 		"bonus_frequency_max": 75,
 		"bonus_power": 1,
 
-		"notifications": false,
+		"notifications": true,
 
 		"rating_enabled": true,
-		"rating_display_1": 3,
-		"rating_display_2": 5,
-		"rating_display_3": 11,
+		"rating_display_1": 4,
+		"rating_display_2": 7,
+		"rating_display_3": 10,
 		"rating_time_delay": 300,
 		"rating_frequency": 2,
 
@@ -154,8 +154,10 @@
 		"order_difficulty_super": "1.75",
 
 		"banner_enable": true,
-		"hw_balancing": false,
-		"hw_fly": false,
+		"hw_balancing": true,
+		"hw_fly": true,
+		"hw_free_upgrade": false,
+		"hw_tutorial": false,
 
 		"AB_test_users": 100
 
@@ -163,16 +165,16 @@
 
 	"ABtests": {
 
-		"Ref": {
+		"2_5_7_Ref": {
 			"panel_size": 100
 		},
-		"A": {
+		"2_5_7_A": {
 			"panel_size": 100,
-			"hw_balancing": true
+			"hw_free_upgrade": true
 		},
-		"B": {
+		"2_5_7_B": {
 			"panel_size": 100,
-			"hw_fly": true
+			"hw_tutorial": true
 		}
 	}
 }
