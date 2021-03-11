@@ -175,6 +175,11 @@
 		"2_5_7_B": {
 			"panel_size": 100,
 			"hw_tutorial": true
+		},
+		"2_5_7_C": {
+			"panel_size": 100,
+			"hw_free_upgrade": true
+			"hw_tutorial": true
 		}
 	}
 }
