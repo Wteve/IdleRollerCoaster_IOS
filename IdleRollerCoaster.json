@@ -156,7 +156,7 @@
 		"banner_enable": true,
 		"hw_balancing": true,
 		"hw_fly": true,
-		"hw_free_upgrade": false,
+		"hw_free_upgrade": true,
 		"hw_tutorial": false,
 
 		"AB_test_users": 100
@@ -166,17 +166,10 @@
 	"ABtests": {
 
 		"2_5_7_Ref": {
-			"panel_size": 100
-		},
-		"2_5_7_A": {
 			"panel_size": 100,
 			"hw_free_upgrade": true
 		},
-		"2_5_7_B": {
-			"panel_size": 100,
-			"hw_tutorial": true
-		},
-		"2_5_7_C": {
+		"2_5_7_A": {
 			"panel_size": 100,
 			"hw_free_upgrade": true,
 			"hw_tutorial": true
