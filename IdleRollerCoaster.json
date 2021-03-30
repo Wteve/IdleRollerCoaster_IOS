@@ -158,6 +158,8 @@
 		"hw_fly": true,
 		"hw_free_upgrade": true,
 		"hw_tutorial": false,
+		"hw_skin_shop": false,
+		"hw_fly_ornament": false,
 
 		"AB_test_users": 100
 
@@ -165,14 +167,17 @@
 
 	"ABtests": {
 
-		"2_5_7_Ref": {
-			"panel_size": 100,
-			"hw_free_upgrade": true
+		"2_5_9_Ref": {
+			"panel_size": 100
 		},
-		"2_5_7_A": {
+		"2_5_9_A": {
 			"panel_size": 100,
-			"hw_free_upgrade": true,
-			"hw_tutorial": true
+			"hw_skin_shop": true
+		},
+		"2_5_9_B": {
+			"panel_size": 100,
+			"hw_fly_ornament": true
 		}
+
 	}
 }
