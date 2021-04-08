@@ -160,6 +160,9 @@
 		"hw_tutorial": false,
 		"hw_skin_shop": false,
 		"hw_fly_ornament": false,
+		"hw_new_fly": false,
+		"hw_first_free_popcorn": false,
+		"hw_interstitial_time": 60,
 
 		"AB_test_users": 100
 
@@ -167,16 +170,22 @@
 
 	"ABtests": {
 
-		"2_5_9_Ref": {
+		"2_6_0_Ref": {
 			"panel_size": 100
 		},
-		"2_5_9_A": {
+		"2_6_0_A": {
 			"panel_size": 100,
-			"hw_skin_shop": true
+			"hw_new_fly": true
 		},
-		"2_5_9_B": {
+		"2_6_0_B": {
 			"panel_size": 100,
-			"hw_fly_ornament": true
+			"hw_first_free_popcorn": true
+		},
+		"2_6_0_C": {
+			"panel_size": 100,
+			"hw_interstitial_time": 30,
+			"interstitials_first_delay": 30,
+			"interstitials_first_level": 1
 		}
 
 	}
